@@ -1,0 +1,19 @@
+/* Using class selector as my working */
+
+.container .text{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* If using type selector as working, code will be as follows 
+
+div p{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+} 
+
+*/
