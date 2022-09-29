@@ -1,6 +1,11 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display:flex;
+  flex-flow: row wrap; /* not meaningful as by default already this setting */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
 }
 
 .logo {
@@ -9,11 +14,17 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-}
+  }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  padding: 0%;
+  gap: 10px;
+  /* Note to self: I struggled with this part as I missed out on the gap function.
+  space-between wont work here because the entire ul class = 1 flex item
+  You have to add gaps in between for it to work */
 }
 
 a {
